@@ -7,45 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site vitrine FRANY</title>
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
     <header>
         <div class="couleur"></div>
         <nav id="primary">
+            <div class="logo"><img src="CLINIQUE-FRANY.jpg" alt="LOGO FRANY"></div>
             <ul>
                 <li class="current-menu"> <a href="index.html">ACCUEIL</a></li>
-                <li><a href="#">A PROPOS</a></li>
-                <li><a href="#">SERVICES</a>
+                <li><a href="#z">A PROPOS</a></li>
+                <li><a href="#k">SERVICES</a>
                     <ul>
-                        <li> <a href="#">Médecine Générale</a>
+                        <li> <a href="page-infos.html#a">Médecine Générale</a>
                             <ul>
-                                <li> <a href="#">Consultation</a></li>
-                                <li> <a href="#">Examens</a></li>
-                                <li> <a href="#">Soins infirmiers</a></li>
+                                <li> <a href="page-infos.html#u">Consultation</a></li>
+                                <li> <a href="page-infos.html#l">Examens</a></li>
+                                <li> <a href="page-infos.html#j">Soins infirmiers</a></li>
                             </ul>
                         </li>
-                        <li> <a href="#">Médecine Spéciale</a>
+                        <li> <a href="page-infos.html#b">Médecine Spéciale</a>
                             <ul>
-                                <li> <a href="#">Cardiologie</a></li>
-                                <li> <a href="#">Chirurgie</a></li>
-                                <li> <a href="#">Neurologie</a></li>
-                                <li> <a href="#">Pédiatrie</a></li>
-                                <li> <a href="#">O.R.L</a></li>
+                                <li> <a href="page-infos.html#f">Cardiologie</a></li>
+                                <li> <a href="page-infos.html#n">Chirurgie</a></li>
+                                <li> <a href="page-infos.html#v">Neurologie</a></li>
+                                <li> <a href="page-infos.html#t">Pédiatrie</a></li>
+                                <li> <a href="page-infos.html#i">O.R.L</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li><a href="#">EQUIPES</a>
+                <li><a href="#m">EQUIPES</a>
                     <ul>
-                        <li><a href="#">Administration</a></li>
-                        <li> <a href="#">Personnels</a></li>
-                        <li><a href="#">Services d'entretiens</a></li>
+                        <li><a href="page-infos.html#e">Administration</a></li>
+                        <li> <a href="page-infos.html#p">Personnels</a></li>
+                        <li><a href="page-infos.html#g">Services d'entretiens</a></li>
                     </ul>
                 </li>
-                <li><a href="#">CONTACTS</a></li>
+                <li><a href="#q">CONTACTS</a></li>
             </ul>
             </div>
         </nav>
@@ -57,20 +56,28 @@
             </div>
 
             <div class="bien1">
-                <h3><em> Notre équipe de spécialistes et de généralistes sont disponible
-                <br>7j/7-24h/24 pour vous accompagner..</em></h3>
+                <h3 class="italique"> Notre équipe de spécialistes et de généralistes sont disponible
+                    <br>7j/7-24h/24 pour vous accompagner..
+                </h3>
             </div>
 
             <div class="voir-plus">
                 <h1>
-                    <a href="#">VOIR PLUS</a>
+                    <a href="#z">VOIR PLUS</a>
                 </h1>
             </div>
+            <!-- <div>
+                <button type="submit" class="voir-plus">
+                   <a href="">
+                    VOIR PLUS
+                </a>
+                </button>
+            </div> -->
         </div>
     </section>
     <section class="page">
         <div>
-            <h2 class="a-propos">A PROPOS</h2>
+            <h2 class="a-propos" id="z">A PROPOS</h2>
             <p><img src="image-a-propos.jpg" alt="image2" class="image-a-propos"></p>
             <p>
                 <h2 class="center">QUI SOMMES NOUS?</h2>
@@ -119,24 +126,49 @@
 
     <section class="pag">
         <div class="bloc32">
-            <h2 class="nos-services">NOS SERVICES</h2>
+            <h2 class="nos-services" id="k">NOS SERVICES</h2>
             <p class="nos-services1">NOS SERVICES SONT DIVERSIFIES ET DE TOUS GENRES <br>CAR NOUS SOMMES A VOTRE SERVICE</p>
             <div class="medoc">
                 <div class="med spe">
                     <!-- la on ajoutera des balises aside pour les infos ou on fera des boutons avec un texte caché, pour chaque section -->
+
                     <h2 class="c">MEDECINE GENERALE</h2>
                     <ul class="M">
-                        <li> <i class="bi bi-check2-circle"></i>Consultations</li>
-                        <li><i class="bi bi-check2-circle"></i>Soins infirmiers</li>
-                        <li><i class="bi bi-check2-circle"></i>Examens</li>
+                        <li class="o">
+                            <a href="page-infos.html#k">
+                                <img src="./check2-circle.png" style="width: 25px; margin-right: 40px;"> Consultations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-infos.html#j">
+                                <img src="./check2-circle.png" style="width: 25px; margin-right: 40px;">Soins infirmiers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-infos.html#l">
+                                <img src="./check2-circle.png" style="width: 25px; margin-right: 40px;">Examens
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="spe">
                     <h2 class="c">MEDECINE SPECIALE</h2>
                     <ul class="M">
-                        <li><i class="bi bi-check2-circle"></i>Cardiologie</li>
-                        <li><i class="bi bi-check2-circle"></i>Chirurgie</li>
-                        <li><i class="bi bi-check2-circle"></i>ORL</li>
+                        <li>
+                            <a href="page-infos.html#f">
+                                <img src="./check2-circle.png" style="width: 25px; margin-right: 40px;">Cardiologie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-infos.html#n">
+                                <img src="./check2-circle.png" style="width: 25px; margin-right: 40px;">Chirurgie
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-infos.html#i">
+                                <img src="./check2-circle.png" style="width: 25px; margin-right: 40px;">ORL
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -144,35 +176,84 @@
     </section>
     <section class="avant">
         <div>
-            <h2>EQUIPES</h2>
-            <div>
-                <div><img src="" alt="Dr KABORE">Cardiologue</div>
-                <div><img src="IMG2.jpg" alt="Dr OUEDRAOGO"> Neurologue
+            <h2 id="m">EQUIPES</h2>
+            <a href="page-infos.html#d">
+                <div class="dr">
+                    <div>
+                        <div><img src="YVES.jpg" alt="Dr KABORE" class="img-round"></div>
+                        <div class="lo"> Dr KABORE <br>
+                            <span class="mo">Cardiologue</span></div>
+                    </div>
+                    <div>
+                        <div><img src="IMG2.jpg" alt="Dr OUEDRAOGO" class="img-round"></div>
+                        <div class="lo">Dr OUEDRAOGO <br>
+                            <span class="mo">Neurologue</span></div>
+                    </div>
+                    <div>
+                        <div><img src="IMG3 .jpg" alt="Dr KEITA" class="img-round"></div>
+                        <div class="lo">Dr KEITA <br>
+                            <span class="mo">Chirurgien</span></div>
+                    </div>
                 </div>
-                <div><img src="IMG3 .jpg" alt="Dr KEITA">Chirurgien</div>
+            </a>
+        </div>
+    </section>
+    <section>
+        <div class="end">
+            <div class="end1">
+
+                <img src="planner_32px.png" alt="RDV" class="en">
+                <p>
+
+                    <a href="#">RENDEZ-VOUS</a></p>
+                <img src="forward_button_32px.png" alt="btn" class="flex">
+            </div>
+            <div class="end2">
+                <img src="hospital_32px.png" alt="SOS" class="en">
+                <p>
+                    <a href="page-infos.html#c">URGENCES</a></p>
+                <img src="forward_button_32px.png" alt="btn" class="flex">
+            </div>
+            <div class="end3">
+                <img src="medical_doctor_32px.png" alt="DOC" class="en">
+                <p>
+                    <a href="page-infos.html#w">DOCTEURS</a></p>
+                <img src="forward_button_32px.png " alt="btn " class="flex ">
+            </div>
+
+        </div>
+    </section>
+    <section class="down ">
+        <h2 id="q">CONTACTS</h2>
+        <div class="downn ">
+            <a href="https://goo.gl/maps/a7Zx99VJFg1e1mhF7 ">
+                <img src="maps.JPG " alt="maps " class="maps ">
+            </a>
+            <div>
+                <div>
+                    <a href="tel:25000000 ">
+                        <img src="telephone_32px.png " alt="telephone_32px "><span class="mop "> 25 00 00 00</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="tel:77000000 ">
+                        <img src="phone_32px.png " alt="phone_32px "><span class="mop "> 77 00 00 00</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:frany@gmail.com?subject=écrivez nous! ">
+                        <img src="mail_account_32px.png " alt="mail_account_32px "><span class="mop1 "> frany@gmail.com</span>
+                    </a>
+                </div>
+                <div>
+                    <img src="fax_32px.png " alt=" "><span class="mop "> 01 BP OUAGA 01</span>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        <div>
-            <div>RENDEZ-VOUS</div>
-            <div><img src="planner_32px.png" alt="RDV"></div>
-            <div>URGENCES</div>
-            <div><img src="hospital_32px.png" alt="SOS"></div>
-            <div>DOCTEURS</div>
-            <div><img src="medical_doctor_32px.png" alt="DOC"></div>
-        </div>
-    </section>
-    <section>
-        <h2>CONTACTS</h2>
-        <div>
-            <div>25 00 00 00</div>
-            <div>77 00 00 00</div>
-            <div>frany@gmail.com</div>
-            <div>01 BP OUAGA 01</div>
-        </div>
-    </section>
-    <div class="pied">COPYRIGHT-FRANY-2022</div>
+    <div class="pied ">
+        <span> COPYRIGHT-FRANY-2022</span>
+    </div>
 </body>
 
 </html>
