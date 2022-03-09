@@ -43,7 +43,7 @@
   }
   
   .bloc1 {
-      background-image: url(image1.jpg);
+      background-image: url('image1.jpg');
       background-repeat: no-repeat;
       height: 780px;
       width: 100%;
@@ -169,7 +169,9 @@
   }
   
   .page12,
-  .center {
+  .center,
+  .page1,
+  .bloc {
       margin: 25px;
   }
   
