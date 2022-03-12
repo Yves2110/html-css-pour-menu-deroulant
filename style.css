@@ -69,7 +69,7 @@
   }
   
   #primary ul li.current-menu {
-      background-color: #fff;
+      background-color: #f6f6f6;
   }
   
   #primary ul li:hover {
@@ -375,10 +375,9 @@
       font-size: 35px;
       padding: 20px;
   }
-  
-  .maps {
+  /* .maps {
       width: 500px;
-  }
+  } */
   
   .mop,
   .mop1 {
