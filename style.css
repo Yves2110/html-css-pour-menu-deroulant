@@ -237,6 +237,7 @@
       border: rgb(54, 53, 53);
       display: flexbox;
       font-family: sans-serif;
+      box-shadow: 2px 2px 2px black;
   }
   
   .c {
@@ -251,6 +252,7 @@
       margin: 5px;
       border-radius: 10px;
       font-family: sans-serif;
+      box-shadow: 2px 2px 2px black;
   }
   
   .nos-services {
