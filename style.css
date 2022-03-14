@@ -284,7 +284,7 @@
       font-family: "SHOWG.TTF";
       color: rgb(13, 182, 9);
       width: auto;
-      height: 500px;
+      height: 600px;
       padding: 25px;
   }
   
@@ -400,4 +400,8 @@
       color: white;
       font-family: "SHOWG.TTF";
       padding: 20px 0;
+  }
+  
+  #m {
+      font-size: xx-large;
   }
